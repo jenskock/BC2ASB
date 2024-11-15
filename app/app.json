@@ -1,0 +1,36 @@
+{
+  "id": "ec08059d-9c17-4b4b-be2c-91859ac8cf03",
+  "name": "BC2ASB",
+  "publisher": "Jens Kock",
+  "version": "1.0.0.0",
+  "brief": "Send and receive messages to and from Azure Service Bus",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 82560,
+      "to": 82580
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ],
+  "suppressWarnings": [
+    "PTE0004",
+    "AA0215"
+  ]
+}

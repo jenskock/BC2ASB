@@ -1,0 +1,73 @@
+{
+  "folders": [
+    {
+      "path": ".AL-Go"
+    },
+    {
+      "path": "app"
+    }
+  ],
+  "settings": {
+    "CRS.AlSubFolderName": "src",
+    "CRS.ExtensionObjectNamePattern": "",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.ObjectNamePrefix": "BC2ASB",
+    "CRS.ObjectNameSuffix": "",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.RemoveSuffixFromFilename": true,
+    "CRS.RenameWithGit": false,
+    "al.codeAnalyzers": [
+      "${PerTenantExtensionCop}",
+      "${CodeCop}",
+      "${UICop}"
+    ],
+    "al.enableCodeAnalysis": true,
+    "al.enableCodeActions": true,
+    "alOutline.codeActionsOnSave": [
+      "SortTableFields",
+      "SortReportColumns",
+      "SortProperties",
+      "SortProcedures",
+      "SortVariables",
+      "SortPermissions",
+      "SortPermissionSetList",
+      "SortCustomizations",
+      "FormatDocument"
+    ],
+    "alOutline.codeCleanupActions": [
+      "RemoveWithStatements",
+      "AddApplicationAreas",
+      "AddToolTips",
+      "AddTableFieldCaptions",
+      "AddEnumValuesCaptions",
+      "AddObjectCaptions",
+      "FixKeywordsCase",
+      "FixIdentifiersCase",
+      "AddMissingParentheses",
+      "RemoveUnusedVariables",
+      "SortPermissions",
+      "SortPermissionSetList",
+      "SortProcedures",
+      "SortProperties",
+      "SortReportColumns",
+      "SortVariables",
+      "SortCustomizations",
+      "RemoveBeginEnd",
+      "RemoveEmptyTriggers",
+      "RemoveEmptySections",
+      "FormatDocument",
+      "MakeFlowFieldsReadOnly",
+      "AddPageFieldCaptions"
+    ]
+  },
+  "extensions": {
+    "recommendations": [
+      "cosmoconsult.cosmo-azure-devops",
+      "ms-dynamics-smb.al",
+      "waldo.crs-al-language-extension",
+      "vscode-icons-team.vscode-icons"
+    ]
+  }
+}
